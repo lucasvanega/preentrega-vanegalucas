@@ -1,0 +1,74 @@
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:green;
+    margin-left: 10px;
+}
+nav{
+    color: green;
+}
+h1 {
+    text-align: center;
+    color: rgb(211, 132, 13);
+    font-family: 'Cinzel', serif;
+font-family: 'Crete Round', serif,
+
+}
+
+header {
+    background-color: black;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+main {
+    background-color:peru;
+}
+
+.parrafo {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+}
+
+img {
+    width: 300px; 
+    padding: 5px;
+}
+
+footer {
+    background-color:black;
+}
+h4{ 
+    color: beige;
+} 
+
+@keyframes texto {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+.efecto {
+    animation-name: texto;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.foto{
+    border-radius: 40%;
+    padding: 10px;
+} 
+.logo {
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+}
